@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = { extras = ["standard"], version = "*" }
+pydantic = "*"
+requests = "*"
+beautifulsoup4 = "*"
+cinemagoer = {editable = true, git = "https://github.com/cinemagoer/cinemagoer"}
+cloudscraper = "*"
+beanie = "*"
+motor = "*"
+pymongo = { extras = ["srv"], version = "*" }
+dnspython = "*"
+jinja2 = "*"
+apscheduler = "*"
+python-dateutil = "*"
+bencodepy = "*"
+pydantic-settings = "*"
+pycryptodome = "*"
+seedrcc = "*"
+parse-torrent-title = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

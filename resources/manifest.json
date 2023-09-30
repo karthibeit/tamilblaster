@@ -1,0 +1,318 @@
+{
+  "id": "mhdzumair.addons.tamilblasters",
+  "version": "2.1.0",
+  "name": "Tamil Blasters",
+  "contactEmail": "mhdzumair@gmail",
+  "description": "Watch Tamil, Hindi, Malayalam, Kannada, English, and dubbed movies & series with the TamilBlasters add-on. Created by Mohamed Zumair. Source: https://github.com/mhdzumair/tamilblasters_streamio_addon",
+  "logo": "https://882b9915d0fe-stremio-tamilblasters.baby-beamup.club/static/tamilblasters.png",
+  "behaviorHints": {
+	"configurable": true,
+	"configurationRequired": false
+  },
+  "resources": [
+	"catalog",
+	{
+	  "name": "stream",
+	  "types": [
+		"movie",
+		"series"
+	  ],
+	  "idPrefixes": [
+		"tt",
+		"tb"
+	  ]
+	},
+	{
+	  "name": "meta",
+	  "types": [
+		"movie",
+		"series"
+	  ],
+	  "idPrefixes": [
+		"tt",
+		"tb"
+	  ]
+	}
+  ],
+  "types": [
+	"movie",
+	"series"
+  ],
+  "catalogs": [
+	{
+	  "id": "tamil_blasters",
+	  "type": "movie",
+	  "name": "Movies",
+	  "extra": [
+		{
+		  "name": "search",
+		  "isRequired": true
+		}
+	  ]
+	},
+	{
+	  "id": "tamil_blasters",
+	  "type": "series",
+	  "name": "Series",
+	  "extra": [
+		{
+		  "name": "search",
+		  "isRequired": true
+		}
+	  ]
+	},
+	{
+	  "id": "tamil_hdrip",
+	  "type": "movie",
+	  "name": "Tamil HD Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "tamil_tcrip",
+	  "type": "movie",
+	  "name": "Tamil TCRip/DVDScr/HDCAM Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "tamil_dubbed",
+	  "type": "movie",
+	  "name": "Tamil Dubbed Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "tamil_series",
+	  "type": "series",
+	  "name": "Tamil Series",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "malayalam_tcrip",
+	  "type": "movie",
+	  "name": "Malayalam TCRip/DVDScr/HDCAM Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "malayalam_hdrip",
+	  "type": "movie",
+	  "name": "Malayalam HD Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "malayalam_dubbed",
+	  "type": "movie",
+	  "name": "Malayalam Dubbed Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "malayalam_series",
+	  "type": "series",
+	  "name": "Malayalam Series",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "telugu_tcrip",
+	  "type": "movie",
+	  "name": "Telugu TCRip/DVDScr/HDCAM Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "telugu_hdrip",
+	  "type": "movie",
+	  "name": "Telugu HD Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "telugu_dubbed",
+	  "type": "movie",
+	  "name": "Telugu Dubbed Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "telugu_series",
+	  "type": "series",
+	  "name": "Telugu Series",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "hindi_tcrip",
+	  "type": "movie",
+	  "name": "Hindi TCRip/DVDScr/HDCAM Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "hindi_hdrip",
+	  "type": "movie",
+	  "name": "Hindi HD Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "hindi_dubbed",
+	  "type": "movie",
+	  "name": "Hindi Dubbed Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "hindi_series",
+	  "type": "series",
+	  "name": "Hindi Series",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "kannada_tcrip",
+	  "type": "movie",
+	  "name": "Kannada TCRip/DVDScr/HDCAM Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "kannada_hdrip",
+	  "type": "movie",
+	  "name": "Kannada HD Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "kannada_dubbed",
+	  "type": "movie",
+	  "name": "Kannada Dubbed Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "kannada_series",
+	  "type": "series",
+	  "name": "Kannada Series",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "english_hdrip",
+	  "type": "movie",
+	  "name": "English HD Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "english_tcrip",
+	  "type": "movie",
+	  "name": "English TCRip/DVDScr/HDCAM Movies",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	},
+	{
+	  "id": "english_series",
+	  "type": "series",
+	  "name": "English Series",
+	  "extra": [
+		{
+		  "name": "skip",
+		  "isRequired": false
+		}
+	  ]
+	}
+  ]
+}
